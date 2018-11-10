@@ -1,2 +1,7 @@
 body {
-  background: red; }
+    background: red;
+}
+
+.foo {
+    background: red;
+}
