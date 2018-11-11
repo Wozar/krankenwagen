@@ -5,8 +5,8 @@ var browserSync = require("browser-sync").create();
 const paths = {
     styles: {
 	bootstrap: "./node_modules/bootstrap/scss/bootstrap.scss",
-	personal: "./src/scss/*.scss",
-	dest: "./src/css"
+	personal: "./scss/*.scss",
+	dest: "./css"
     }
 };
 
@@ -21,11 +21,11 @@ function style()
 function watch()
 {
     browserSync.init({
-	server: "./src"
+	server: "./"
     });
 
     gulp.watch(paths.styles.personal, style);
-    gulp.watch("./src/*.html", browserSync.reload);
+    gulp.watch("*.html", browserSync.reload);
 }
 
 exports.default = watch;
