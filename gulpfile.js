@@ -18,6 +18,12 @@ function style()
 	.pipe(browserSync.stream());
 }
 
+function reload(done)
+{
+    browserSync.reload();
+    done();
+}
+
 function watch()
 {
     browserSync.init({
@@ -25,7 +31,7 @@ function watch()
     });
 
     gulp.watch(paths.styles.personal, style);
-    gulp.watch("*.html", browserSync.reload);
+    gulp.watch("./*.html", reload);
 }
 
 exports.default = watch;
