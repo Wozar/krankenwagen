@@ -4,7 +4,7 @@
 	<title>CM1101</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,800">
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/styles.css">
 </head>
@@ -12,7 +12,7 @@
 <body>
 	<div class="container">
 		<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-		    <a class="navbar-brand" href="index.html">
+			<a class="navbar-brand" href="index.html">
 				<img width="35" height="35" src="assets/logo.png">
 				Rasmus
 			</a>
@@ -32,16 +32,73 @@
 					<li class="nav-item">
 						<a class="nav-link" href="cv.html">CV</a>
 					</li>
-					<li class="nav-item" href="about.html">
+					<li class="nav-item active" href="about.html">
 						<a class="nav-link" href="about.html">About</a>
 					</li>
 				</ul>
 			</div>
 		</nav>
 
-			<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-</body>
-</html>
+		<div class="row">
+			<div class="col-md-4">
+				<div class="card mt-4">
+					<img class="card-img-top" src="assets/fishing net.jpg" alt="Picture of the website owner">
+					<div class="card-body">
+						<h5 class="card-title">About me</h5>
+						<p class="card-text">My name is Rasmus but you can find me by my online alias Wozar.
+						I have an interest in both artificial intelligence and DevOps.</p>
+
+						<table class="table">
+							<tbody>
+								<tr>
+									<td><a href="https://twitter.com/wozar8"><i class="fab fa-twitter"></i> Twitter</a></td>
+									<td><a href="https://www.reddit.com/user/wozarz"><i class="fab fa-reddit"></i> reddit</a></td>
+								</tr>
+								<tr>
+									<td><a href="https://gitlab.com/wozar"><i class="fab fa-gitlab"></i> GitLab</a></td>
+									<td><a href="https://github.com/wozar"><i class="fab fa-github"></i> GitHub</a></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+
+			<div class="col">
+				<div class="card mt-4">
+					<div class="card-body">
+						<iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15468408.494986573!2d0.058805159978943665!3d61.753684580837984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4664bcea4d8e22cd%3A0x7186faed0155b381!2sScandinavia!5e0!3m2!1sen!2suk!4v1542370531206" height="369" frameborder="0" style="border:0" allowfullscreen></iframe>
+					</div>		
+				</div>
+			</div>	
+
+			<div class="col-md-4">
+				<div class="card mt-4">
+					<div class="card-body">
+						<h5 class="card-title">Contact me</h5>
+						<form>
+							<div class="form-group">
+								<label for="name">Name</label>
+								<input class="form-control" id="name" placeholder="Enter name">
+							</div>
+							<div class="form-group">
+								<label for="emailInput">Email address</label>
+								<input type="email" class="form-control" id="emailInput" placeholder="Enter email">
+							</div>
+							<div class="form-group">
+								<label for="text-area">Describe problem</label>
+								<textarea class="form-control" id="text-area" rows="2"></textarea>
+							</div>
+						</form>
+						<a class="btn btn-primary" href="#">Submit</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	</body>
+	</html>
