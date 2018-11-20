@@ -1,21 +1,18 @@
-#map {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-}
-
 // My own variables
 $md-primary: #283593;
 $md-primary-light: #5f5fc4;
 $md-primary-dark: #001064;
 
 // Variable overrides
-
 $theme-colors: (
   "primary": $md-primary,
   "light": $md-primary-light,
   "dark": $md-primary-dark
 );
+
+.carousel-inner img {
+	margin: auto;
+}
 
 // Bootstrap and its default variables
 @import "node_modules/bootstrap/scss/bootstrap";

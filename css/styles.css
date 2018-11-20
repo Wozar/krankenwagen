@@ -1,7 +1,5 @@
-#map {
-  display: block;
-  margin-left: auto;
-  margin-right: auto; }
+.carousel-inner img {
+  margin: auto; }
 
 /*!
  * Bootstrap v4.1.3 (https://getbootstrap.com/)
