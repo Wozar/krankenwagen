@@ -24,6 +24,7 @@ function reload(done)
     done();
 }
 
+// Keep an eye on SASS or html changes
 function watch()
 {
     browserSync.init({
